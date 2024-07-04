@@ -1,7 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import image from "../../../assets/image/amit.jpg";
+import image from "../../../assets/image/me2.png";
 
 const Banner = () => {
   return (
