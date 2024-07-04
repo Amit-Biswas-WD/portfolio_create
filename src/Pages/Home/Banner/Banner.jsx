@@ -5,7 +5,7 @@ import image from "../../../assets/image/amit.jpg";
 
 const Banner = () => {
   return (
-    <div className="bg-base-200 mt-10 rounded-xl">
+    <div className="hero min-h-screen">
       <div className="hero-content max-w-[1280px] mx-auto flex-col lg:flex-row-reverse">
         <img
           src={image}
@@ -17,7 +17,7 @@ const Banner = () => {
             I,m Amit Biswas.
           </h1>
           <p className="my-6">I am Font-end Web Developer.</p>
-          <div className="flex gap-4 px-8">
+          <div className="flex gap-4">
             <a
               target="_blank"
               href="https://www.linkedin.com/in/amit-biswas-8b22992b4/"

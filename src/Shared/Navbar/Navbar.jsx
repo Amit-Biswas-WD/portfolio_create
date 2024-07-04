@@ -8,8 +8,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 relative z-10">
-      <div className="fixed top-0 left-0 right-0 bg-white">
+    <div className="navbar bg-gray-200 fixed z-10">
+      <div className="fixed top-0 left-0 right-0 max-w-[1280px] mx-auto mt-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,9 +35,7 @@ const Navbar = () => {
               {navItem}
             </ul>
           </div>
-          <div className="my-auto ml-6 mb-4 font-semibold">
-            <a className="text-4xl hover:text-green-400">Amit</a>
-          </div>
+          <a className="text-xl">Amit</a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItem}</ul>
