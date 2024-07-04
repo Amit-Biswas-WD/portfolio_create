@@ -1,13 +1,13 @@
 import photo from "../../assets/image/amit.jpg";
 const About = () => {
   return (
-    <div className="max-w-7xl mx-auto my-20">
+    <div className="max-w-7xl mx-auto my-10">
       <h2 className="my-8 text-center mx-auto text-4xl font-bold text-black">
         About <span className="text-red-500">Me</span>
       </h2>
       <div className="md:flex">
         <img src={photo} alt="" className="rounded-sm" />
-        <div className="bg-fuchsia-200 py-8 p-4">
+        <div className="bg-fuchsia-100 py-8 p-4">
           <h3 className="text-2xl font-bold my-8 md:mt-20 text-black md:ml-20  md:mr-8">
             I,m Amit
           </h3>
