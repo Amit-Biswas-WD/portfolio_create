@@ -4,7 +4,8 @@ const Navbar = () => {
       <li className="md:mr-6 font-semibold">Home</li>
       <li className="md:mr-6 font-semibold">About</li>
       <li className="md:mr-6 font-semibold">Skills</li>
-      <li className="md:mr-6 font-semibold">Skills</li>
+      <li className="md:mr-6 font-semibold">Work</li>
+      <li className="md:mr-6 font-semibold">Contact</li>
     </>
   );
   return (
