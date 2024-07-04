@@ -16,6 +16,13 @@ const Footer = () => {
           <p>Keep Rising 🚀. Connect with me over live chat!</p>
         </nav>
         <nav>
+          <h6 className="footer-title">Quick Links</h6>
+          <a className="link link-hover">Home</a>
+          <a className="link link-hover">About</a>
+          <a className="link link-hover">Skills</a>
+          <a className="link link-hover">Contact</a>
+        </nav>
+        <nav>
           <h6 className="footer-title">Skill</h6>
           <a className="link link-hover">HTML</a>
           <a className="link link-hover">CSS</a>
