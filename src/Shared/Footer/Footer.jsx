@@ -34,7 +34,7 @@ const Footer = () => {
           <div>
             <p className="my-2 flex gap-2 items-center">
               <IoCall />
-              01951400346
+              +88 01951400346
             </p>
 
             <p className="flex gap-2 items-center">
